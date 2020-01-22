@@ -1,5 +1,9 @@
 #write your code here
 
-def countdown
-pp :countdown_output
+def countdown(x)
+  while x > 0
+    puts "#{x} SECOND(S)!"
+
+    x-=1
+  end
 end
